@@ -18,7 +18,7 @@
     background: #16161a;
 }
 .theme-bg {
-    background: #ff2828;
+    background: #723185;
 }
 .brand-bg {
     background: #f1f4fa;
@@ -33,28 +33,28 @@
     color: #16161a;
 }
 .theme-color {
-    color: #ff2828;
+    color: #723185;
 }
 .boxed-btn {
     background: #fff;
-    color: #ff2828 !important;
+    color: #723185 !important;
     display: inline-block;
     padding: 18px 44px;
     font-family: "Playfair Display", serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
-    border: 1px solid #ff2828;
+    border: 1px solid #723185;
     letter-spacing: 3px;
     text-align: center;
-    color: #ff2828;
+    color: #723185;
     text-transform: uppercase;
     cursor: pointer;
 }
 .boxed-btn:hover {
-    background: #ff2828;
+    background: #723185;
     color: #fff !important;
-    border: 1px solid #ff2828;
+    border: 1px solid #723185;
 }
 .boxed-btn:focus {
     outline: none;
@@ -329,7 +329,7 @@ hr {
     background: #ff3500;
 }
 .btn {
-    background: #ff2828;
+    background: #723185;
     text-transform: uppercase;
     color: #fff;
     font-size: 16px;
@@ -358,7 +358,7 @@ hr {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #da1b1b;
+    background: #582e64;
     z-index: 1;
     border-radius: 5px;
     transition: transform 0.5s;
@@ -401,11 +401,11 @@ hr {
 .border-btn {
     background: none;
     -moz-user-select: none;
-    border: 2px solid #ff2828;
+    border: 2px solid #723185;
     padding: 18px 38px;
     margin: 10px;
     text-transform: capitalize;
-    color: #ff2828;
+    color: #723185;
     cursor: pointer;
     display: inline-block;
     font-size: 14px;
@@ -427,7 +427,7 @@ hr {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #ff2828;
+    background: #723185;
     z-index: -1;
     transition: transform 0.5s;
     transition-timing-function: ease;
@@ -443,7 +443,7 @@ hr {
     padding: 17px 52px;
 }
 .send-btn {
-    background: #ff2828;
+    background: #723185;
     color: #fff;
     font-size: 14px;
     width: 100%;
@@ -464,8 +464,8 @@ hr {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #e6373d;
-    color: #ff2828;
+    background: #582e64;
+    color: #723185;
     z-index: -1;
     transition: transform 0.5s;
     transition-timing-function: ease;
@@ -482,7 +482,7 @@ hr {
     color: #888;
 }
 #scrollUp {
-    background: #ff2828;
+    background: #723185;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -1601,7 +1601,7 @@ hr {
     position: relative;
     border-style: solid;
     border-width: 1px;
-    border-top-color: #ff2828;
+    border-top-color: #723185;
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -1990,7 +1990,7 @@ hr {
     background: #16161a;
 }
 .theme-bg {
-    background: #ff2828;
+    background: #723185;
 }
 .brand-bg {
     background: #f1f4fa;
@@ -2005,7 +2005,7 @@ hr {
     color: #16161a;
 }
 .theme-color {
-    color: #ff2828;
+    color: #723185;
 }
 .owl-carousel .owl-stage {
     display: flex;
@@ -2050,7 +2050,7 @@ hr {
     }
 }
 .main-header .main-menu ul li:hover > a {
-    color: #ff2828;
+    color: #723185;
 }
 .main-header .main-menu ul ul.submenu {
     position: absolute;
@@ -2062,8 +2062,8 @@ hr {
     opacity: 0;
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
     padding: 17px 0;
-    border-top: 5px solid #ff2828;
-    border-bottom: 5px solid #ff2828;
+    border-top: 5px solid #723185;
+    border-bottom: 5px solid #723185;
     border-radius: 0 37px 0px 24px;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -2082,7 +2082,7 @@ hr {
     text-transform: capitalize;
 }
 .main-header .main-menu ul ul.submenu > li > a:hover {
-    color: #ff2828;
+    color: #723185;
     background: none;
 }
 .main-header ul > li:hover > ul.submenu {
@@ -2121,7 +2121,7 @@ hr {
 }
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color: #ff2828;
+    color: #723185;
 }
 .mobile_menu .slicknav_menu .slicknav_nav a {
     font-size: 15px;
@@ -2504,7 +2504,7 @@ hr {
 }
 .pricing-card-area .single-card.active {
     padding-bottom: 70px;
-    border: 1px solid #ff2828;
+    border: 1px solid #723185;
 }
 .pricing-card-area .single-card.active .card-buttons {
     visibility: visible;
@@ -2512,7 +2512,7 @@ hr {
 }
 .pricing-card-area .single-card:hover {
     box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
-    border: 1px solid #ff2828;
+    border: 1px solid #723185;
     padding-bottom: 70px;
 }
 .pricing-card-area .single-card:hover .card-buttons {
@@ -2960,7 +2960,7 @@ hr {
     content: "";
     width: 75px;
     height: 3px;
-    background: #ff2828;
+    background: #723185;
     left: 0;
     top: 52%;
     transform: translateY(-50%);
@@ -2980,7 +2980,7 @@ hr {
 }
 .blog_area a:hover,
 .blog_area a :hover {
-    background: -webkit-linear-gradient(131deg, #ff2828 0%, #ff2828 99%);
+    background: -webkit-linear-gradient(131deg, #723185 0%, #723185 99%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -3357,7 +3357,7 @@ hr {
     color: #242b5e;
 }
 .blog_details a:hover {
-    color: #ff2828;
+    color: #723185;
 }
 .blog_details h2 {
     font-size: 18px;
@@ -3405,7 +3405,7 @@ hr {
     left: 10px;
     display: block;
     color: #fff;
-    background-color: #ff2828;
+    background-color: #723185;
     padding: 8px 15px;
     border-radius: 5px;
 }
@@ -3474,7 +3474,7 @@ hr {
     box-shadow: none;
 }
 .blog_right_sidebar .search_widget .input-group button {
-    background: #ff2828;
+    background: #723185;
     border-left: 0;
     border: 1px solid #f0e9ff;
     padding: 4px 15px;
@@ -3572,7 +3572,7 @@ hr {
     font-size: 13px;
 }
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-    background: #ff2828;
+    background: #723185;
     color: #fff !important;
     -webkit-text-fill-color: #fff;
     text-decoration: none;
@@ -3747,7 +3747,7 @@ hr {
     display: inline-block;
 }
 .single-post-area .blog-author a:hover {
-    color: #ff2828;
+    color: #723185;
 }
 .single-post-area .blog-author p {
     margin-bottom: 0;
