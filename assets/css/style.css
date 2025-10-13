@@ -2536,8 +2536,8 @@ hr {
 }
 @media (max-width: 575px) {
     .Our-story-area .story-caption.background-img {
-        width: 291px;
-        height: 395px;
+        width: 18rem;
+        height: 36rem;
     }
 }
 .pricing-card-area .single-card {
