@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+
 </head>
 <body>
 <!-- Preloader Start -->
@@ -341,7 +343,7 @@
                                 <div class="col-lg-12">
                                     <div class="section-tittle tittle-form text-center mb-30">
                                         <h2>Asistirás?</h2>
-                                        <img src="assets/img/gallery/tittle_img2.jpeg" alt="">
+                                        <img src="assets/img/gallery/tittle_img2.png" alt="" style="width:150px; height: 100px; margin: -70em;">
                                     </div>
                                 </div>
                             </div>
@@ -391,33 +393,36 @@
                         <img src="assets/img/gallery/tittle_img.png" alt="">
                         <p>Lo más importante para nosotros es que nos acompañen. Si desean hacernos un presente, pueden elegir entre apoyar nuestros sueños futuros o ayudarnos a equipar nuestro hogar.
 
-Para regalos físicos: Hemos habilitado una lista en [Nombre de la Tienda].
+Para regalos físicos: Hemos habilitado una lista en Amazon y Livepool.
 Para apoyo económico: Pueden usar el buzón que tendremos en la recepción.
 
 ¡Gracias por su generosidad!</p>
                     </div>
                 </div>
             </div>
-            <div class="brand-active brand-border">
-                <div class="single-brand">
-                    <img src="assets/img/service/brand1.jpg" alt="">
-                </div>
-                <div class="single-brand">
-                    <img src="assets/img/service/brand2.jpg" alt="">
-                </div>
-                <div class="single-brand">
-                    <img src="assets/img/service/brand3.jpg" alt="">
-                </div>
-                <div class="single-brand">
-                    <img src="assets/img/service/brand4.jpg" alt="">
-                </div>
-                <div class="single-brand">
-                    <img src="assets/img/service/brand5.jpg" alt="">
-                </div>
-                <div class="single-brand">
-                    <img src="assets/img/service/brand3.jpg" alt="">
-                </div>
+            <div class="logos-section">
+              <div class="logo-item">
+                <a href="https://www.amazon.com.mx/wedding/registry/SK4W9K58WS2A" target="_blank">
+                  <img
+                    src="assets/img/service/Amazon_logo.svg.webp"
+                    class="logo-img"
+                    alt="Amazon Logo"
+                  />
+                </a>
+              </div>
+
+              <div class="logo-item">
+                <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51598600" target="_blank">
+                  <img
+                    src="assets/img/service/Liverpool_logo.svg.png"
+                    class="logo-img"
+                    alt="Liverpool Logo"
+                  />
+                </a>
+              </div>
             </div>
+
+
         </div>
     </section>
     <!-- Gallery-2 img Start-->
@@ -675,6 +680,19 @@ Para apoyo económico: Pueden usar el buzón que tendremos en la recepción.
     <!-- Jquery Plugins, main Jquery -->	
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
+
+
+<script>
+  $('.brand-active').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+    dots: false,
+  });
+</script>
+
     
 </body>
 </html>
