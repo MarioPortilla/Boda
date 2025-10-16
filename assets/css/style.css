@@ -1910,6 +1910,40 @@ hr {
   background-color: #f9f9f9;
 }
 
+/* Estilos para Desktop (el tamaño que ya tienes) */
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 55px; 
+        height: 55px; 
+    }
+}
+
+
+
+/* 1. Define el tamaño fijo del contenedor de la imagen */
+.gallery-img {
+    /* Define un alto y ancho fijo para el cuadro de la imagen */
+    width: 300px; /* O el ancho que desees */
+    height: 200px; /* O la altura que desees */
+    
+    /* Importante: oculta cualquier parte de la imagen que sobresalga del cuadro */
+    overflow: hidden; 
+}
+
+/* 2. Aplica estilos a la imagen dentro de su contenedor */
+.gallery-img img {
+    width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: 100%; /* La imagen ocupa todo el alto del contenedor */
+    
+    /* *CLAVE*: Esta propiedad controla cómo la imagen se ajusta al contenedor */
+    object-fit: cover; 
+}
+
 /* Cuadro individual */
 .logo-item {
   width: 320px;
@@ -2540,6 +2574,13 @@ hr {
         height: 36rem;
     }
 }
+
+@media (max-width: 575px) {
+    .Our-story-area .story-caption.background-img {
+        width: 18rem;
+        height: 36rem;
+    }
+}
 .pricing-card-area .single-card {
     background: #fff;
     padding: 70px 25px;
@@ -2790,9 +2831,21 @@ hr {
 }
 .contact-form .form-wrapper {
     background: #fff;
-    padding: 125px 70px 115px 70px;
+    
+    padding: 260px 70px 200px 70px; 
+    
+
     box-shadow: 0px 0px 86px 0px rgba(0, 0, 0, 0.06);
     position: relative;
+}
+
+@media (max-width: 768px) {
+    .contact-form .form-wrapper {
+        padding: 50px 20px 50px 20px; 
+        
+        /* padding-left: 30px; 
+           padding-right: 30px; */
+    }
 }
 .contact-form .form-wrapper #contact-form {
     position: relative;
@@ -2815,7 +2868,7 @@ hr {
 }
 @media (max-width: 575px) {
     .contact-form .form-wrapper {
-        padding: 100px 34px 115px 36px;
+        padding: 200px 34px 215px 36px;
     }
 }
 .contact-form .form-wrapper .shape-inner-flower .shpe2 {
